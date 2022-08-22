@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ogquan/Desktop/GitScript/YeneActivities/Persistence/Persistence.csproj": {}
+    "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "/home/ogquan/Desktop/GitScript/YeneActivities/Persistence/Persistence.csproj": {
+    "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ogquan/Desktop/GitScript/YeneActivities/Persistence/Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Persistence/Persistence.csproj",
-        "packagesPath": "/home/ogquan/.nuget/packages/",
-        "outputPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Persistence/obj/",
+        "projectUniqueName": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\System Administrator\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ogquan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\System Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,70 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\System Administrator\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\System Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

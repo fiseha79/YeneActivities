@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/ogquan/.nuget/packages/": {}
+    "C:\\Users\\System Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ogquan/Desktop/GitScript/YeneActivities/Domain/Domain.csproj",
+      "projectUniqueName": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Domain/Domain.csproj",
-      "packagesPath": "/home/ogquan/.nuget/packages/",
-      "outputPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Domain/obj/",
+      "projectPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\System Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ogquan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\System Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

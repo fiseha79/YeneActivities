@@ -1,26 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Persistence.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Persistence/Persistence.csproj",
+      "msbuildProject": "../Persistence/Persistence.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "Persistence >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/home/ogquan/.nuget/packages/": {}
+    "C:\\Users\\System Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ogquan/Desktop/GitScript/YeneActivities/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Application/Application.csproj",
-      "packagesPath": "/home/ogquan/.nuget/packages/",
-      "outputPath": "/home/ogquan/Desktop/GitScript/YeneActivities/Application/obj/",
+      "projectPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\System Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ogquan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\System Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Persistence\\Persistence.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -49,7 +94,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

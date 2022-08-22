@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/6+zd4NBqgRFHGt1xNLPnXMIhRXl8l7FGf6tzfmA7RWiyE79G2An/hA93KvxQrPsKiAAqVqJ+Xfsm6sxK2IF8Q==",
+  "dgSpecHash": "2rhHfmibvD2zXV3NaWnqDUCqHmmvC8ehwV+RoCVUOQP6az+a081J9/P/wmeFDrP4CPlsrTYM2rVDYcAxJ35GeA==",
   "success": true,
-  "projectFilePath": "/home/ogquan/Desktop/GitScript/YeneActivities/Domain/Domain.csproj",
+  "projectFilePath": "C:\\Users\\System Administrator\\Desktop\\GitScript\\YeneActivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
