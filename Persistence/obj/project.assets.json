@@ -1168,7 +1168,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Domain >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8",
+      "Microsoft.EntityFrameworkCore.Sqlite.Core >= 6.0.8"
     ]
   },
   "packageFolders": {
@@ -1213,6 +1214,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[6.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": {
             "target": "Package",
             "version": "[6.0.8, )"
           }

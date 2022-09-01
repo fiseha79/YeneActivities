@@ -534,7 +534,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.8"
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.8",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.8"
         },
         "compile": {
           "bin/placeholder/Persistence.dll": {}
