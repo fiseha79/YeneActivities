@@ -15,3 +15,20 @@ C:\Users\System Administrator\Desktop\GitScript\YeneActivities\Application\obj\D
 C:\Users\System Administrator\Desktop\GitScript\YeneActivities\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Users\System Administrator\Desktop\GitScript\YeneActivities\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\System Administrator\Desktop\GitScript\YeneActivities\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Application.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Persistence.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Persistence.pdb
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\famar\OneDrive\Desktop\YeneActivities\Application\obj\Debug\net6.0\ref\Application.dll
