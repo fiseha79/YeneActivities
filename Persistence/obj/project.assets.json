@@ -1199,8 +1199,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
+            "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
             }
           }
         }

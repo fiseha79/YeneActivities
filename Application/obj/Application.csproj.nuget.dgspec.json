@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
+              "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
               },
               "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Persistence\\Persistence.csproj"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\famar\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\famar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,8 +151,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
+              "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\Domain\\Domain.csproj"
               }
             }
           }
