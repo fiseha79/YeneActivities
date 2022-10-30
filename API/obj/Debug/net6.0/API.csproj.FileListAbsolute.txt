@@ -118,3 +118,6 @@ C:\Users\famar\OneDrive\Desktop\YeneActivities\api\obj\Debug\net6.0\refint\API.d
 C:\Users\famar\OneDrive\Desktop\YeneActivities\api\obj\Debug\net6.0\API.pdb
 C:\Users\famar\OneDrive\Desktop\YeneActivities\api\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\famar\OneDrive\Desktop\YeneActivities\api\obj\Debug\net6.0\ref\API.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\API\bin\Debug\net6.0\MediatR.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\API\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\famar\OneDrive\Desktop\YeneActivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

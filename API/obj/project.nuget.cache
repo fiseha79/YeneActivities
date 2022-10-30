@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6rDr/10ANDUr433QFPVVHGbabEm8+mRt2cOjTS2oXAZfito5QlTmriLkg9jZvmVEFXRRZwMwCp1cB8VeRSUpYg==",
+  "dgSpecHash": "iMe6purzJRN6ZcCEieGoQaHLwz74eo5XxPXFmjYqWWfzQ/EeMnIcBErBcVGgbiWmYK8sDqIBiALdv2vgPAPmOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\famar\\OneDrive\\Desktop\\YeneActivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\famar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\famar\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\famar\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\famar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\famar\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.8\\microsoft.data.sqlite.core.6.0.8.nupkg.sha512",
     "C:\\Users\\famar\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\famar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
