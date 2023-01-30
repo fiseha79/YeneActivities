@@ -4,9 +4,10 @@ import { Activity } from '../../../app/models/activity';
 
 interface Probs{
     activity:Activity
+    cancelSelectActivity: () => void; 
 }
 
-export default function ActivityDetails({activity}:Probs) {
+export default function ActivityDetails({activity,cancelSelectActivity}:Probs) {
     return(
         <Card fluid>
         <Image src={`/assets/categoryImages/${activity.category}.jpg`} />
@@ -22,7 +23,7 @@ export default function ActivityDetails({activity}:Probs) {
         <Card.Content extra>
           <Button.Group width='2'>
             <Button basic color='blue' content='Edit'></Button>
-            <Button basic color='grey' content='Cancel'></Button>
+            <Button onClick={cancelSelectActivity} basic color='grey' content='Cancel'></Button>
           </Button.Group>
         </Card.Content>
       </Card>

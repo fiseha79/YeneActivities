@@ -4,24 +4,27 @@ import { Activity } from '../../../app/models/activity';
 
 interface Probs{
     activities: Activity[];
+    
+    selectActivity: (id : string) => void;
+    
 }
 
-export default function ActivityList({activities}:Probs) {
+export default function ActivityList({activities, selectActivity}:Probs) {
     return(
         <Segment>
             <Item.Group divided>
-                {activities.map(activities=> (
-                    <Item key={activities.id}>
+                {activities.map(activity=> (
+                    <Item key={activity.id}>
                     <Item.Content>
-                        <Item.Header as='a'>{activities.title}</Item.Header>
-                        <Item.Meta>{activities.date}</Item.Meta>
+                        <Item.Header as='a'>{activity.title}</Item.Header>
+                        <Item.Meta>{activity.date}</Item.Meta>
                         <Item.Description>
-                            <div>{activities.description}</div>
-                            <div>{activities.city}, {activities.venue}</div>
+                            <div>{activity.description}</div>
+                            <div>{activity.city}, {activity.venue}</div>
                         </Item.Description>
                         <Item.Extra>
-                            <Button floated='right' content='View' color='blue' />
-                            <Label basic content={activities.category} />
+                            <Button onClick={()=> selectActivity(activity.id)}floated='right' content='View' color='blue' />
+                            <Label basic content={activity.category} />
                         </Item.Extra>
                     </Item.Content>
                     </Item>
